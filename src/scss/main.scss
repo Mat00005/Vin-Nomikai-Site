@@ -1,3 +1,4 @@
+@import "bootstrap/scss/bootstrap-grid";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +12,867 @@ a {
 img,
 video {
   display: block;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 1439px;
+  height: 86px;
+
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  margin-bottom: 72px;
+  display: flex;
+  width: 1440px;
+  padding: 19px 0px;
+
+  align-items: center;
+  gap: 216px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Lien {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+
+  font-weight: 800;
+
+  margin-bottom: 86px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.VinRouge {
+  display: flex;
+  width: 546px;
+  height: 546px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.VinBlanc {
+  width: 546px;
+  height: 512px;
+  background-color: grey;
+}
+
+.Titre {
+  display: flex;
+  width: auto;
+  height: 91px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 73px;
+  font-style: italic;
+  background-color: grey;
+  display: flex;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 42px;
+}
+.Description {
+  width: 756px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  justify-content: center;
+  font-weight: 800;
+  margin-bottom: 143px;
+  margin-left: 340px;
+}
+
+.Domaine {
+  width: 1116px;
+  height: 297px;
+  margin-bottom: 19px;
+  margin-left: 162px;
+}
+
+.Titre2 {
+  height: 91px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 127px;
+  color: #fff;
+  font-style: italic;
+  background-color: grey;
+  display: flex;
+  width: auto;
+  font-family: "Plus Jakarta Sans";
+  font-size: 42px;
+}
+
+.Vin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 138px;
+}
+
+.TitreDomaine {
+  color: #000;
+  display: flex;
+  width: 1440px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  align-self: stretch;
+  width: 639px;
+  margin-left: 162px;
+}
+
+.TexteDomaine {
+  align-self: stretch;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%;
+  width: 639px;
+  margin-left: 162px;
+}
+.CTADomaine {
+  display: flex;
+  width: 166px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #000;
+  background: #fff;
+  color: #000;
+  text-align: center;
+
+  /* Footer/Footer Title */
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 162px;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.CTADomaine:hover {
+  background: #000;
+  color: #fff;
+}
+.DomaineLayout {
+  display: flex;
+  width: 639px;
+  height: 256px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.DomaineImage {
+  width: 355px;
+  height: 326px;
+  margin-right: 162px;
+}
+
+.FlexDomaine {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 138px;
+  width: 1114px;
+  height: 326px;
+  gap: 284px;
+}
+
+.TitreVigneron {
+  width: 1106px;
+  color: var(--Black, #000);
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 162px;
+}
+
+.TexteVigneron {
+  align-self: stretch;
+  color: var(--Black, #000);
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; /* 28px */
+  height: 160px;
+  margin-left: 162px;
+}
+
+.CTAVigneron {
+  display: flex;
+  width: 166px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  text-align: center;
+  border: 3px solid #000;
+  background: #fff;
+  margin-left: 162px;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 90px;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.CTAVigneron:hover {
+  background: #000;
+  color: #fff;
+}
+.FlexVigneron2 {
+  display: flex;
+  flex-direction: row;
+  gap: 268px;
+  margin-bottom: 138px;
+}
+
+.VignoneronLayout {
+  display: flex;
+  width: 653px;
+  padding: 0px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.TitreHistoire {
+  color: var(--Black, #000);
+  text-align: right;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-weight: 800;
+  width: 643px;
+}
+
+.VigneronImage {
+  margin-left: 162px;
+}
+.VigneronImage22 {
+  margin-left: 162px;
+}
+
+.TexteHistoire {
+  color: var(--Black, #000);
+  text-align: right;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 200%;
+  width: 631px;
+  margin-right: 162px;
+}
+
+.CTAHistoire {
+  display: flex;
+  width: 166px;
+  padding: 10px;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+  border: 3px solid #000;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  margin-right: 162px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.CTAHistoire:hover {
+  background: #000;
+  color: #fff;
+}
+.FlexHistoire {
+  display: flex;
+  flex-direction: row;
+  gap: 385px;
+  margin-bottom: 138px;
+}
+.HistoireImage {
+  margin-left: 162px;
+}
+.HistoireLayout {
+  display: flex;
+  width: 641px;
+  padding: 0px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+}
+.TitreHistoire {
+  margin-right: 162px;
+}
+.Titre3 {
+  height: 91px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 127px;
+  color: #fff;
+  background-color: grey;
+  display: flex;
+  width: auto;
+  font-family: "Plus Jakarta Sans";
+  font-size: 42px;
+  font-style: italic;
+}
+
+.HoraireDegustation {
+  width: 546px;
+  color: #000;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+
+  font-weight: 500;
+}
+
+.CTADegustation {
+  display: flex;
+  width: 166px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #000;
+  background: #fff;
+  margin-bottom: 67px;
+  color: #000;
+  text-align: center;
+  margin-left: 190px;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 31px;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.CTADegustation:hover {
+  background: #000;
+  color: #fff;
+}
+
+.FlexDegustation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageDegustation {
+  margin-bottom: 181px;
+}
+.Fotter {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.logoNomikai {
+  color: #fff;
+  font-family: "HWT Mardell";
+  font-size: 40px;
+
+  font-weight: 400;
+
+  width: 153px;
+}
+.Contact {
+  color: #fff;
+
+  /* Footer/Footer Information */
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 261px;
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.Adresse {
+  display: flex;
+  width: 261px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #fff;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+
+  font-weight: 500;
+}
+
+.CTAResaux {
+  display: flex;
+  width: 261px;
+  height: 67px;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ResauxLogo {
+  display: flex;
+  width: 261px;
+  height: 67px;
+  flex-direction: row;
+
+  color: #fff;
+  font-family: "Font Awesome 6 Brands";
+  font-size: 40px;
+
+  font-weight: 400;
+}
+.Affiche {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  width: 1440px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Affiche1 {
+  color: var(--Grey-Black, #0b0b0b);
+  text-align: center;
+  font-family: "HWT Mardell";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 93.75% */
+}
+
+.Affiche2 {
+  color: var(--Grey-Black, #0b0b0b);
+  text-align: center;
+  font-family: "HWT Mardell";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 93.75% */
+}
+
+.Affiche3 {
+  color: var(--Grey-Black, #0b0b0b);
+  font-family: "HWT Mardell";
+  font-size: 60px;
+  line-height: 120px; /* 93.75% */
+}
+
+.Affiche4 {
+  color: var(--Grey-Black, #0b0b0b);
+  text-align: center;
+  font-family: "HWT Mardell";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 93.75% */
+}
+.HeaderLogo {
+  color: var(--Black, #000);
+  text-align: center;
+  font-family: "HWT Mardell";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.HeaderRaccourcis {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 43px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.HeaderProfileShop {
+  color: #000;
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: flex;
+}
+
+.HeaderLangue {
+  color: var(--Black, #000);
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.VinProduit {
+  margin-left: 162px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Lien {
+  text-decoration: none;
+}
+.VinProduit2 {
+  margin-right: 162px;
+
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.VinProduit2:hover {
+  transform: scale(1.1); /* Agrandissement */
+}
+.VinProduit:hover {
+  transform: scale(1.1); /* Agrandissement */
+}
+.TitreVin {
+  margin-bottom: 40px;
+}
+.ImageVinRouge {
+  height: 546px;
+
+  align-self: stretch;
+}
+
+.CTAVIN {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border: 3px solid #000;
+  background: #fff;
+  color: #000;
+  text-align: center;
+
+  /* Footer/Footer Title */
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+}
+
+.CTAVin:hover {
+  background: #000;
+  color: #fff;
+}
+
+.TitreVin {
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+}
+
+.TitreMail {
+  color: #fff;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+  margin-bottom: 10px;
+}
+
+.BlockMail {
+  height: 48px;
+  align-self: stretch;
+  border: 1px solid var(--White, #fff);
+  background: var(--Black, #000);
+}
+
+.CTAMail {
+  display: flex;
+  width: 261px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  transition-property: color;
+  transition-duration: 0.5s;
+  margin-top: 10px;
+}
+
+.CTAMail:hover {
+  background: #fff;
+  color: #000;
+}
+
+.HoraireTitre {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.Heure {
+  margin-top: 10px;
+}
+.DescriptionVin {
+  display: flex;
+  width: 356px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+  margin-bottom: 94px;
+  margin-left: 162px;
+}
+
+.ArcVin {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.NomVin {
+  align-self: stretch;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.SélectionVin {
+  display: flex;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.DateVin {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.AchatVin {
+  display: flex;
+  width: 736px;
+  align-items: center;
+  gap: 30px;
+  margin-left: 162px;
+}
+
+.PrixVin {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.Prix {
+  color: #f00;
+}
+
+.NombreVin {
+  display: flex;
+  width: 166px;
+  height: 52px;
+  padding-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+  border: 3px solid #000;
+  background: #fff;
+  font-family: "Plus Jakarta Sans";
+}
+
+.CTAVIN {
+  display: flex;
+  width: 208px;
+  height: 52px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 3px solid #000;
+  background: #fff;
+}
+
+.VinLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.BlockInfo {
+  display: flex;
+  width: 1116px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  margin-left: 162px;
+  margin-bottom: 115px;
+}
+
+.BlockGauche {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  gap: 20px;
+}
+
+.BlockDroite {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CTADecouvert {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #000;
+  background: #fff;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.CTADecouvert:hover {
+  background: #000;
+  color: #fff;
+}
+
+.VerreVin {
+  width: 1116px;
+  height: 351px;
+  margin-left: 162px;
+  margin-bottom: 200px;
+}
+
+.BouteilleAchat {
+  margin-bottom: 134px;
+}
+
+.ThirstCol {
+  margin-right: 162px;
+  margin-top: 30px;
+}
+.FirstCol {
+  margin-left: 162px;
+  margin-top: 30px;
+}
+
+.SecondCol {
+  margin-top: 30px;
 }

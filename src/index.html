@@ -1,14 +1,150 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scss/main.scss" />
-  </head>
-  <body>
-    <h1>Hello world</h1>
+<extends src="base-layout.html">
+  <block name="content">
+    <div class="Affiche">
+      <div class="Affiche1"><h1>VIN VIN VIN VIN VIN VIN</h1></div>
+      <div class="Affiche2"><h1>VIN VIN VIN VIN VIN VIN</h1></div>
+      <div class="Affiche3"><h1>VIN VIN VIN VIN VIN VIN</h1></div>
+      <div class="Affiche4"><h1>VIN VIN VIN VIN VIN VIN</h1></div>
+    </div>
+    <div class="Lien">
+      <div ><p> <a href="vin">Nos Vin</a></p></div>
+      <div><p>/</p></div>
+      <div><a href="Domaine"><p>Le Domaine</p></a></div>
+      <div><p>/</p></div>
+      <div><p>Nos Vignerons</p></div>
+      <div><p>/</p></div>
+      <div><p>Notre Histoire</p></div>
+    </div>
 
-    <script src="js/main.js" type="module"></script>
-  </body>
-</html>
+    <div class="Titre">
+      <h1 >VIN DU MOMENT</h1>
+    </div>
+    <div class="Vin">
+  
+        <div id="vin" class="VinProduit">
+          <div class="TitreVin"><h2>Pinot noir</h2></div>
+          <div class="ImageVinRouge">
+           <a href="vin rouge.html"><img src="image/Image Vin Rouge.png" alt="Bouteile de V" /></a> 
+            <div class="CTAVIN">
+             <a href="vin rouge.html"> <p>Voir plus</p>s</a>
+            </div>
+         
+        </div>
+      </div>
+      <div class="VinProduit2">
+        <div class="TitreVin"><h2>Vin Blanc</h2></div>
+        <div class="ImageVinRouge"><a href="vin blanc.html"> <img src="image/Image Vin Rouge.png" alt="" /></a>
+         
+          <div class="CTAVIN">
+           <a href="vin blanc.html"> <p>Voir plus</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Titre2">
+      <h1>ABOUT US</h1>
+    </div>
+    <div class="Description">
+      
+      <p>
+        Situé au cœur du Valais, entre montagnes majestueuses et vallées
+        ensoleillées, le Domaine Bio Nomikai est un lieu de passion et de
+        respect de la nature.
+      </p>
+    </div>
+  </div>
+    <img
+      class="Domaine"
+      src="image/Le Domaine Image 3.png"
+      alt="image de vigne"
+    />
+    <div class="FlexDomaine">
+      <div class="DomaineLayout">
+        <div class="TitreDomaine">
+          <h1 id="Domaine">Le Domaine</h1>
+        </div>
+        <div class="TexteDomaine">
+          <p>
+            Depuis sa création, notre domaine s'engage à cultiver la vigne en
+            harmonie avec l’environnement, en suivant les principes de
+            l'agriculture biologique. Notre objectif : exprimer l'authenticité
+            du terroir valaisan dans chaque bouteille.
+          </p>
+        </div>
+        <div class="CTADomaine">
+          <p>Voir plus</p>
+        </div>
+      </div>
+      <div class="DomaineImage"><img src="image/Group 1.png" alt="Vin" /></div>
+    </div>
+    <div class="FlexVigneron2">
+      <div class="FlexVigneron">
+        <div class="VignoneronLayout">
+          <div class="TitreVigneron">
+            <h1>Nos Vignerons</h1>
+          </div>
+          <div class="TexteVigneron">
+            <p>
+              Au Domaine Bio Nomikai, nos
+              vignerons sont bien plus que des artisans du vin : ce sont les
+              gardiens d’une tradition et les ambassadeurs d’un terroir unique.
+              Passionnés et engagés, ils travaillent chaque jour pour faire
+              rayonner l’authenticité de notre domaine au-delà des montagnes
+              valaisannes.
+            </p>
+          </div>
+          <div class="CTAVigneron">
+            <p>Voir plus</p>
+          </div>
+        </div>
+        <div class="VigneronImage">
+          <img src="image/Vingeronimage.png" alt="Vin" />
+        </div>
+      </div class="VigneronImage22" >
+      <div><img src="image/Vignerons22.png" alt="Vigneron" /></div>
+    </div>
+
+    <div class="FlexHistoire">
+      <div class="HistoireImage">
+        <img src="image/Histoire Vin.png" alt="Tableau de Bouteille" />
+      </div>
+      <div class="HistoireLayout">
+        <div class="TitreHistoire">
+          <h1>Notre Histoire</h1>
+        </div>
+        <div class="TexteHistoire">
+          <p>
+            Dans le cœur du Valais, entre les sommets enneigés et les vallées
+            baignées de soleil, un nouveau domaine viticole a vu le jour,
+            apportant une touche de modernité et d’audace à une région riche en
+            traditions. Nomikai, un nom inspiré du mot japonais signifiant
+            “réunion conviviale autour d’un verre”, est bien plus qu’un vignoble
+            c’est une révolution.
+          </p>
+        </div>
+        <div class="CTAHistoire">
+          <p>Voir plus</p>
+        </div>
+      </div>
+    </div>
+    <div class="Titre3">
+      <h1 id="event">DEGUSTATION</h1>
+    </div>
+    <div class="FlexDegustation">
+      <div class="DegustationLayout">
+        <div class="HoraireDegustation">
+          <p>
+            Mecredi, Jeudi, Vendredi : <br />
+            <strong>9h30h - 12h et 14h30 - 17h30 </strong> <br />
+            Samedi : <br />
+            <strong>9h30 - 15h30 </strong>
+          </p>
+        </div>
+        <div class="CTADegustation"><p>Voir plus</p></div>
+        <div class="ImageDegustation">
+          <img src="image/Vin Dégustation.png" alt="Verre de Vin" />
+        </div>
+      </div>
+    </div>
+  </block>
+</extends>
